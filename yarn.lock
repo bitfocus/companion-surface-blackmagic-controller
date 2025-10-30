@@ -69,12 +69,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@companion-surface/base@npm:~0.2.0":
-  version: 0.2.0
-  resolution: "@companion-surface/base@npm:0.2.0"
+"@companion-surface/base@npm:~0.3.1":
+  version: 0.3.1
+  resolution: "@companion-surface/base@npm:0.3.1"
   dependencies:
     tslib: "npm:^2.8.1"
-  checksum: 10c0/526c1188d5e610da51d33b22adb2a051b38722674914bb1f1c17792dc55e83e7832ae8bea89bf92e8a09ca090678870523e5416da3ae74e5fedf707cf6c7f552
+  checksum: 10c0/4df9575dd5a942041e6315bda8307ccde0b753c25ce231313cfa419fa7ba514ff83f8eae7945243d0fa5517505b2a6e3b6f6b43b4e48581afaa4a4f9061d373e
   languageName: node
   linkType: hard
 
@@ -393,12 +393,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.18.12":
-  version: 22.18.12
-  resolution: "@types/node@npm:22.18.12"
+"@types/node@npm:^22.18.13":
+  version: 22.18.13
+  resolution: "@types/node@npm:22.18.13"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/13a4638f2baba3efba2b8bc369dd6f950dccbfca78f318f9c9f2c7adc11fce14fc119723c38567dada2d57a873c092b7356c024924d5974a08f3c1f93dc706c6
+  checksum: 10c0/4d97b447274f6e566fc5afb464146e9db77b5892c318364eb927b13441e6dbf9fe0ec9d1ed2cb6b5e7e85f5154a5ff52913d2cfc4b952bcf19fb0ddaaff5e533
   languageName: node
   linkType: hard
 
@@ -1095,14 +1095,14 @@ __metadata:
   dependencies:
     "@blackmagic-controller/node": "npm:^1.0.2"
     "@companion-module/tools": "npm:2.4.2-nightly-main-20251021-232112-36bfae9"
-    "@companion-surface/base": "npm:~0.2.0"
-    "@types/node": "npm:^22.18.12"
+    "@companion-surface/base": "npm:~0.3.1"
+    "@types/node": "npm:^22.18.13"
     debounce-fn: "npm:^6.0.0"
     eslint: "npm:^9.38.0"
     husky: "npm:^9.1.7"
     lint-staged: "npm:^16.2.6"
     prettier: "npm:^3.6.2"
-    rimraf: "npm:^6.0.1"
+    rimraf: "npm:^6.1.0"
     typescript: "npm:~5.9.3"
     typescript-eslint: "npm:^8.46.2"
   languageName: unknown
@@ -1728,7 +1728,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^11.0.0":
+"glob@npm:^11.0.3":
   version: 11.0.3
   resolution: "glob@npm:11.0.3"
   dependencies:
@@ -2534,7 +2534,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"package-json-from-dist@npm:^1.0.0":
+"package-json-from-dist@npm:^1.0.0, package-json-from-dist@npm:^1.0.1":
   version: 1.0.1
   resolution: "package-json-from-dist@npm:1.0.1"
   checksum: 10c0/62ba2785eb655fec084a257af34dbe24292ab74516d6aecef97ef72d4897310bc6898f6c85b5cd22770eaa1ce60d55a0230e150fb6a966e3ecd6c511e23d164b
@@ -2833,15 +2833,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "rimraf@npm:6.0.1"
+"rimraf@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "rimraf@npm:6.1.0"
   dependencies:
-    glob: "npm:^11.0.0"
-    package-json-from-dist: "npm:^1.0.0"
+    glob: "npm:^11.0.3"
+    package-json-from-dist: "npm:^1.0.1"
   bin:
     rimraf: dist/esm/bin.mjs
-  checksum: 10c0/b30b6b072771f0d1e73b4ca5f37bb2944ee09375be9db5f558fcd3310000d29dfcfa93cf7734d75295ad5a7486dc8e40f63089ced1722a664539ffc0c3ece8c6
+  checksum: 10c0/19658c91a08e43cd5f930384410135a1194082d5e73e0863137bc02c03d684817e30848f734ef05ec84094fe5e3eb9ffd6814ecec65d8fc2e234f5c391ab42e0
   languageName: node
   linkType: hard
 

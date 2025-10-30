@@ -1,0 +1,25 @@
+{
+	"$schema": "../node_modules/@companion-surface/base/assets/manifest.schema.json",
+	"type": "surface",
+	"id": "blackmagic-controller",
+	"name": "Blackmagic Controller",
+	"shortname": "blackmagic-controller",
+	"description": "",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-surface-blackmagic-controller.git",
+	"bugs": "https://github.com/bitfocus/companion-surface-blackmagic-controller/issues",
+	"maintainers": [
+		{
+			"name": "Julian Waller",
+			"email": "git@julusian.co.uk"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"keywords": ["blackmagic", "atem", "speed editor", "resolve", "replay"],
+	"products": ["Blackmagic ATEM Micro Panel", "Blackmagic Resolve Replay Editor", "Blackmagic Speed Editor"]
+}

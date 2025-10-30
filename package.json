@@ -10,6 +10,7 @@
 		"build": "rimraf dist && run build:main",
 		"build:main": "tsc -p tsconfig.build.json",
 		"dev": "tsc -p tsconfig.build.json --watch",
+		"dist": "companion-surface-build",
 		"lint:raw": "eslint",
 		"lint": "run lint:raw ."
 	},

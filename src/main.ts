@@ -41,6 +41,7 @@ const StreamDeckPlugin: SurfacePlugin<BlackmagicControllerDeviceInfo> = {
 				surfaceLayout: createSurfaceSchema(surface),
 				transferVariables: createTransferVariables(surface.MODEL),
 				pincodeMap: generatePincodeMap(surface.MODEL),
+				location: null,
 			},
 		}
 	},

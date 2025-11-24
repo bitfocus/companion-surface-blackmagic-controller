@@ -69,12 +69,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@companion-surface/base@npm:~0.3.1":
-  version: 0.3.1
-  resolution: "@companion-surface/base@npm:0.3.1"
+"@companion-surface/base@npm:~0.6.1":
+  version: 0.6.1
+  resolution: "@companion-surface/base@npm:0.6.1"
   dependencies:
     tslib: "npm:^2.8.1"
-  checksum: 10c0/4df9575dd5a942041e6315bda8307ccde0b753c25ce231313cfa419fa7ba514ff83f8eae7945243d0fa5517505b2a6e3b6f6b43b4e48581afaa4a4f9061d373e
+  checksum: 10c0/5dcc936c8148703e6dfd456a720d948ddbed534eb28683fb39e99756573532ce92e924fbf3bee51afdef6e28ff53eb6ed59caa6e69066e151eaec7c4b2176633
   languageName: node
   linkType: hard
 
@@ -1095,7 +1095,7 @@ __metadata:
   dependencies:
     "@blackmagic-controller/node": "npm:^1.0.2"
     "@companion-module/tools": "npm:2.4.2-nightly-main-20251021-232112-36bfae9"
-    "@companion-surface/base": "npm:~0.3.1"
+    "@companion-surface/base": "npm:~0.6.1"
     "@types/node": "npm:^22.18.13"
     debounce-fn: "npm:^6.0.0"
     eslint: "npm:^9.38.0"

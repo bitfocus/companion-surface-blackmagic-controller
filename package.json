@@ -1,14 +1,15 @@
 {
 	"name": "companion-surface-blackmagic-controller",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"main": "dist/main.js",
 	"type": "module",
 	"scripts": {
 		"postinstall": "husky",
 		"format": "prettier -w .",
 		"package": "run build && companion-surface-build",
-		"build": "rimraf dist && run build:main",
+		"build": "rimraf dist && run build:main && run build:manifest-usb-ids",
 		"build:main": "tsc -p tsconfig.build.json",
+		"build:manifest-usb-ids": "node ./tools/update-usb-ids.mjs",
 		"dev": "tsc -p tsconfig.build.json --watch",
 		"dist": "companion-surface-build",
 		"lint:raw": "eslint",
@@ -20,7 +21,7 @@
 		"url": "git+https://github.com/bitfocus/companion-surface-blackmagic-controller.git"
 	},
 	"engines": {
-		"node": "^22.14",
+		"node": "^22.18",
 		"yarn": "^4"
 	},
 	"dependencies": {

@@ -25,7 +25,7 @@
 		"yarn": "^4"
 	},
 	"dependencies": {
-		"@blackmagic-controller/node": "^1.0.2",
+		"@blackmagic-controller/node": "^1.0.3",
 		"@companion-surface/base": "~1.0.0",
 		"debounce-fn": "^6.0.0"
 	},

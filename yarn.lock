@@ -5,25 +5,25 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@blackmagic-controller/core@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@blackmagic-controller/core@npm:1.0.3"
+"@blackmagic-controller/core@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@blackmagic-controller/core@npm:1.1.0"
   dependencies:
     eventemitter3: "npm:^5.0.1"
     tslib: "npm:^2.8.1"
-  checksum: 10c0/4a9622368d67364eaa01658b3e2c9b9a9712966ecb06fe6dd3ac53afb64161b4e8f3da0a1cb7da404195d5f92d59adbb8beff195812ffd5e0a7c14fd78f22a6d
+  checksum: 10c0/3d8abac7fec601111f7f3409785bb2bf7f1d85a4ad8ff72475c36f15d9d29c966199aab96114ff9c5879061507efa016b5db21933792902b192b12cc6754a4eb
   languageName: node
   linkType: hard
 
-"@blackmagic-controller/node@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@blackmagic-controller/node@npm:1.0.3"
+"@blackmagic-controller/node@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@blackmagic-controller/node@npm:1.1.0"
   dependencies:
-    "@blackmagic-controller/core": "npm:1.0.3"
+    "@blackmagic-controller/core": "npm:1.1.0"
     eventemitter3: "npm:^5.0.1"
     node-hid: "npm:^3.2.0"
     tslib: "npm:^2.8.1"
-  checksum: 10c0/416985bac0665083d11b06fc6ec91d29b33563a716d26e398600cef5d494bc035293d6dcd3a8c9b211095c6da17f29340d65ab17dcd17c8f6d2d9f765ceb9c47
+  checksum: 10c0/695e1bd7f582b92e9700bc948c979d69d7a19ea981ae875156d84f93808ce6bc89c27d946cdb0ddcee5797a03b48ce736ac52d15089c437d8ce0e521dd3f213d
   languageName: node
   linkType: hard
 
@@ -1064,7 +1064,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "companion-surface-blackmagic-controller@workspace:."
   dependencies:
-    "@blackmagic-controller/node": "npm:^1.0.3"
+    "@blackmagic-controller/node": "npm:^1.1.0"
     "@companion-module/tools": "npm:^2.5.0"
     "@companion-surface/base": "npm:~1.0.0"
     "@types/node": "npm:^22.19.3"

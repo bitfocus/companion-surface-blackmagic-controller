@@ -6,6 +6,7 @@ import {
 	BlackmagicControllerDeviceInfo,
 	getBlackmagicControllerDeviceInfo,
 	openBlackmagicController,
+	getBlackmagicControllerName,
 } from '@blackmagic-controller/node'
 
 const StreamDeckPlugin: SurfacePlugin<BlackmagicControllerDeviceInfo> = {
@@ -22,7 +23,7 @@ const StreamDeckPlugin: SurfacePlugin<BlackmagicControllerDeviceInfo> = {
 
 		return {
 			surfaceId: `blackmagic:${surfaceInfo.serialNumber}`,
-			description: surfaceInfo.model, // TODO: Better description
+			description: getBlackmagicControllerName(surfaceInfo.model),
 			pluginInfo: surfaceInfo,
 		}
 	},

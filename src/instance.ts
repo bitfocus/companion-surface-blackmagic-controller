@@ -50,10 +50,10 @@ export class BlackmagicControllerWrapper implements SurfaceInstance {
 			// context.sendVariableValue(this.#surfaceId, 'batteryLevel', level.toString())
 		})
 		this.#device.on('tbar', (_control, level) => {
-			context.sendVariableValue('tbarValueVariable', level.toString())
+			context.sendVariableValue('tbarValueVariable', level)
 		})
-		this.#device.on('jog', (_control, _delta) => {
-			// context.sendVariableValue('jogDeltaVariable', delta.toString())
+		this.#device.on('jog', (_control, velocity) => {
+			context.sendVariableValue('jogVelocityVariable', velocity)
 		})
 	}
 

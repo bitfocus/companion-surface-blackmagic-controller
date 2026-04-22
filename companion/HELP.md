@@ -17,4 +17,6 @@ The layout matches the device's natural grid when blank spaces are compacted. Th
 
 To use the T-bar, go to the surface settings and select a custom variable to receive the value. You can also provide an expression to control how the T-bar LEDs are lit.
 
+On Resolve Speed Editor and Replay Editor, the jog wheel can publish a variable with relative velocity values (positive/negative) while the wheel is turning.
+
 LEDs on keys (on/off) respond to setting background color.
